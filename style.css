@@ -1,0 +1,31 @@
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.carousel-control-prev-icon {
+    background-image: url(img/arrow-prev-small-svgrepo-com.svg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(img/arrow-next-svgrepo-com.svg);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 50px;
+}
+
+.carousel-control-prev {
+    left: -120px;
+}
+
+.carousel-control-next {
+    right: -120px;
+}
+
+.card-body{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
